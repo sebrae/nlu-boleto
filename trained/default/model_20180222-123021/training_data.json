@@ -1,0 +1,1336 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "entities": [], 
+        "intent": "greet", 
+        "text": "oi"
+      }, 
+      {
+        "entities": [], 
+        "intent": "greet", 
+        "text": "ola"
+      }, 
+      {
+        "entities": [], 
+        "intent": "greet", 
+        "text": "opa"
+      }, 
+      {
+        "entities": [], 
+        "intent": "greet", 
+        "text": "bom dia"
+      }, 
+      {
+        "entities": [], 
+        "intent": "goodbye", 
+        "text": "tchau"
+      }, 
+      {
+        "entities": [], 
+        "intent": "goodbye", 
+        "text": "adeus"
+      }, 
+      {
+        "entities": [], 
+        "intent": "goodbye", 
+        "text": "hasta la vista"
+      }, 
+      {
+        "entities": [], 
+        "intent": "goodbye", 
+        "text": "see u later"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 6, 
+            "end": 12, 
+            "value": "boleto", 
+            "entity": "boleto"
+          }
+        ], 
+        "intent": "findBoletoDAS", 
+        "text": "gerar boleto"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 6, 
+            "end": 9, 
+            "value": "DAS", 
+            "entity": "boleto"
+          }
+        ], 
+        "intent": "findBoletoDAS", 
+        "text": "gerar DAS"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 6, 
+            "end": 18, 
+            "value": "contribuicao", 
+            "entity": "boleto"
+          }
+        ], 
+        "intent": "findBoletoDAS", 
+        "text": "gerar contribuicao"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 13, 
+            "value": "boleto", 
+            "entity": "boleto"
+          }
+        ], 
+        "intent": "findBoletoDAS", 
+        "text": "emitir boleto"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 10, 
+            "value": "DAS", 
+            "entity": "boleto"
+          }
+        ], 
+        "intent": "findBoletoDAS", 
+        "text": "emitir DAS"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 19, 
+            "value": "contribuicao", 
+            "entity": "boleto"
+          }
+        ], 
+        "intent": "findBoletoDAS", 
+        "text": "emitir contribuicao"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 9, 
+            "end": 15, 
+            "value": "boleto", 
+            "entity": "boleto"
+          }
+        ], 
+        "intent": "findBoletoDAS", 
+        "text": "imprimir boleto"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 9, 
+            "end": 12, 
+            "value": "DAS", 
+            "entity": "boleto"
+          }
+        ], 
+        "intent": "findBoletoDAS", 
+        "text": "imprimir DAS"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 9, 
+            "end": 21, 
+            "value": "contribuicao", 
+            "entity": "boleto"
+          }
+        ], 
+        "intent": "findBoletoDAS", 
+        "text": "imprimir contribuicao"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 6, 
+            "end": 12, 
+            "value": "boleto", 
+            "entity": "boleto"
+          }
+        ], 
+        "intent": "findBoletoDAS", 
+        "text": "pagar boleto"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 6, 
+            "end": 9, 
+            "value": "DAS", 
+            "entity": "boleto"
+          }
+        ], 
+        "intent": "findBoletoDAS", 
+        "text": "pagar DAS"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 6, 
+            "end": 18, 
+            "value": "contribuicao", 
+            "entity": "boleto"
+          }
+        ], 
+        "intent": "findBoletoDAS", 
+        "text": "pagar contribuicao"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 6, 
+            "value": "boleto", 
+            "entity": "boleto"
+          }, 
+          {
+            "start": 7, 
+            "end": 14, 
+            "value": "janeiro", 
+            "entity": "mes"
+          }
+        ], 
+        "intent": "findBoletoDASByMes", 
+        "text": "boleto janeiro"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 6, 
+            "value": "boleto", 
+            "entity": "boleto"
+          }, 
+          {
+            "start": 7, 
+            "end": 14, 
+            "value": "Janeiro", 
+            "entity": "mes"
+          }
+        ], 
+        "intent": "findBoletoDASByMes", 
+        "text": "boleto Janeiro"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 6, 
+            "value": "boleto", 
+            "entity": "boleto"
+          }, 
+          {
+            "start": 7, 
+            "end": 13, 
+            "value": "janero", 
+            "entity": "mes"
+          }
+        ], 
+        "intent": "findBoletoDASByMes", 
+        "text": "boleto janero"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 6, 
+            "value": "boleto", 
+            "entity": "boleto"
+          }, 
+          {
+            "start": 7, 
+            "end": 10, 
+            "value": "jan", 
+            "entity": "mes"
+          }
+        ], 
+        "intent": "findBoletoDASByMes", 
+        "text": "boleto jan"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 6, 
+            "value": "boleto", 
+            "entity": "boleto"
+          }, 
+          {
+            "start": 7, 
+            "end": 9, 
+            "value": "01", 
+            "entity": "mes"
+          }
+        ], 
+        "intent": "findBoletoDASByMes", 
+        "text": "boleto 01"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 6, 
+            "value": "boleto", 
+            "entity": "boleto"
+          }, 
+          {
+            "start": 7, 
+            "end": 13, 
+            "value": "de jan", 
+            "entity": "mes"
+          }
+        ], 
+        "intent": "findBoletoDASByMes", 
+        "text": "boleto de jan"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 6, 
+            "value": "boleto", 
+            "entity": "boleto"
+          }, 
+          {
+            "start": 7, 
+            "end": 13, 
+            "value": "em jan", 
+            "entity": "mes"
+          }
+        ], 
+        "intent": "findBoletoDASByMes", 
+        "text": "boleto em jan"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 6, 
+            "value": "boleto", 
+            "entity": "boleto"
+          }, 
+          {
+            "start": 7, 
+            "end": 17, 
+            "value": "de janeiro", 
+            "entity": "mes"
+          }
+        ], 
+        "intent": "findBoletoDASByMes", 
+        "text": "boleto de janeiro"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 6, 
+            "value": "boleto", 
+            "entity": "boleto"
+          }, 
+          {
+            "start": 7, 
+            "end": 17, 
+            "value": "em janeiro", 
+            "entity": "mes"
+          }
+        ], 
+        "intent": "findBoletoDASByMes", 
+        "text": "boleto em janeiro"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 6, 
+            "value": "boleto", 
+            "entity": "boleto"
+          }, 
+          {
+            "start": 7, 
+            "end": 16, 
+            "value": "de janero", 
+            "entity": "mes"
+          }
+        ], 
+        "intent": "findBoletoDASByMes", 
+        "text": "boleto de janero"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 6, 
+            "value": "boleto", 
+            "entity": "boleto"
+          }, 
+          {
+            "start": 7, 
+            "end": 16, 
+            "value": "em janero", 
+            "entity": "mes"
+          }
+        ], 
+        "intent": "findBoletoDASByMes", 
+        "text": "boleto em janero"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 6, 
+            "value": "boleto", 
+            "entity": "boleto"
+          }, 
+          {
+            "start": 7, 
+            "end": 16, 
+            "value": "fevereiro", 
+            "entity": "mes"
+          }
+        ], 
+        "intent": "findBoletoDASByMes", 
+        "text": "boleto fevereiro"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 6, 
+            "value": "boleto", 
+            "entity": "boleto"
+          }, 
+          {
+            "start": 7, 
+            "end": 15, 
+            "value": "feverero", 
+            "entity": "mes"
+          }
+        ], 
+        "intent": "findBoletoDASByMes", 
+        "text": "boleto feverero"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 6, 
+            "value": "boleto", 
+            "entity": "boleto"
+          }, 
+          {
+            "start": 7, 
+            "end": 10, 
+            "value": "fev", 
+            "entity": "mes"
+          }
+        ], 
+        "intent": "findBoletoDASByMes", 
+        "text": "boleto fev"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 6, 
+            "value": "boleto", 
+            "entity": "boleto"
+          }, 
+          {
+            "start": 7, 
+            "end": 9, 
+            "value": "02", 
+            "entity": "mes"
+          }
+        ], 
+        "intent": "findBoletoDASByMes", 
+        "text": "boleto 02"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 6, 
+            "value": "boleto", 
+            "entity": "boleto"
+          }, 
+          {
+            "start": 7, 
+            "end": 18, 
+            "value": "de feverero", 
+            "entity": "mes"
+          }
+        ], 
+        "intent": "findBoletoDASByMes", 
+        "text": "boleto de feverero"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 6, 
+            "value": "boleto", 
+            "entity": "boleto"
+          }, 
+          {
+            "start": 7, 
+            "end": 18, 
+            "value": "em feverero", 
+            "entity": "mes"
+          }
+        ], 
+        "intent": "findBoletoDASByMes", 
+        "text": "boleto em feverero"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 6, 
+            "value": "boleto", 
+            "entity": "boleto"
+          }, 
+          {
+            "start": 7, 
+            "end": 19, 
+            "value": "de fevereiro", 
+            "entity": "mes"
+          }
+        ], 
+        "intent": "findBoletoDASByMes", 
+        "text": "boleto de fevereiro"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 6, 
+            "value": "boleto", 
+            "entity": "boleto"
+          }, 
+          {
+            "start": 7, 
+            "end": 19, 
+            "value": "em fevereiro", 
+            "entity": "mes"
+          }
+        ], 
+        "intent": "findBoletoDASByMes", 
+        "text": "boleto em fevereiro"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 6, 
+            "value": "boleto", 
+            "entity": "boleto"
+          }, 
+          {
+            "start": 7, 
+            "end": 13, 
+            "value": "de fev", 
+            "entity": "mes"
+          }
+        ], 
+        "intent": "findBoletoDASByMes", 
+        "text": "boleto de fev"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 6, 
+            "value": "boleto", 
+            "entity": "boleto"
+          }, 
+          {
+            "start": 7, 
+            "end": 13, 
+            "value": "em fev", 
+            "entity": "mes"
+          }
+        ], 
+        "intent": "findBoletoDASByMes", 
+        "text": "boleto em fev"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 3, 
+            "value": "DAS", 
+            "entity": "boleto"
+          }, 
+          {
+            "start": 4, 
+            "end": 11, 
+            "value": "janeiro", 
+            "entity": "mes"
+          }
+        ], 
+        "intent": "findBoletoDASByMes", 
+        "text": "DAS janeiro"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 3, 
+            "value": "DAS", 
+            "entity": "boleto"
+          }, 
+          {
+            "start": 4, 
+            "end": 11, 
+            "value": "Janeiro", 
+            "entity": "mes"
+          }
+        ], 
+        "intent": "findBoletoDASByMes", 
+        "text": "DAS Janeiro"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 3, 
+            "value": "DAS", 
+            "entity": "boleto"
+          }, 
+          {
+            "start": 4, 
+            "end": 10, 
+            "value": "janero", 
+            "entity": "mes"
+          }
+        ], 
+        "intent": "findBoletoDASByMes", 
+        "text": "DAS janero"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 3, 
+            "value": "DAS", 
+            "entity": "boleto"
+          }, 
+          {
+            "start": 4, 
+            "end": 7, 
+            "value": "jan", 
+            "entity": "mes"
+          }
+        ], 
+        "intent": "findBoletoDASByMes", 
+        "text": "DAS jan"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 3, 
+            "value": "DAS", 
+            "entity": "boleto"
+          }, 
+          {
+            "start": 4, 
+            "end": 6, 
+            "value": "01", 
+            "entity": "mes"
+          }
+        ], 
+        "intent": "findBoletoDASByMes", 
+        "text": "DAS 01"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 3, 
+            "value": "DAS", 
+            "entity": "boleto"
+          }, 
+          {
+            "start": 4, 
+            "end": 10, 
+            "value": "de jan", 
+            "entity": "mes"
+          }
+        ], 
+        "intent": "findBoletoDASByMes", 
+        "text": "DAS de jan"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 3, 
+            "value": "DAS", 
+            "entity": "boleto"
+          }, 
+          {
+            "start": 4, 
+            "end": 10, 
+            "value": "em jan", 
+            "entity": "mes"
+          }
+        ], 
+        "intent": "findBoletoDASByMes", 
+        "text": "DAS em jan"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 3, 
+            "value": "DAS", 
+            "entity": "boleto"
+          }, 
+          {
+            "start": 4, 
+            "end": 14, 
+            "value": "de janeiro", 
+            "entity": "mes"
+          }
+        ], 
+        "intent": "findBoletoDASByMes", 
+        "text": "DAS de janeiro"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 3, 
+            "value": "DAS", 
+            "entity": "boleto"
+          }, 
+          {
+            "start": 4, 
+            "end": 14, 
+            "value": "em janeiro", 
+            "entity": "mes"
+          }
+        ], 
+        "intent": "findBoletoDASByMes", 
+        "text": "DAS em janeiro"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 3, 
+            "value": "DAS", 
+            "entity": "boleto"
+          }, 
+          {
+            "start": 4, 
+            "end": 13, 
+            "value": "de janero", 
+            "entity": "mes"
+          }
+        ], 
+        "intent": "findBoletoDASByMes", 
+        "text": "DAS de janero"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 3, 
+            "value": "DAS", 
+            "entity": "boleto"
+          }, 
+          {
+            "start": 4, 
+            "end": 13, 
+            "value": "em janero", 
+            "entity": "mes"
+          }
+        ], 
+        "intent": "findBoletoDASByMes", 
+        "text": "DAS em janero"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 3, 
+            "value": "DAS", 
+            "entity": "boleto"
+          }, 
+          {
+            "start": 4, 
+            "end": 13, 
+            "value": "fevereiro", 
+            "entity": "mes"
+          }
+        ], 
+        "intent": "findBoletoDASByMes", 
+        "text": "DAS fevereiro"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 3, 
+            "value": "DAS", 
+            "entity": "boleto"
+          }, 
+          {
+            "start": 4, 
+            "end": 12, 
+            "value": "feverero", 
+            "entity": "mes"
+          }
+        ], 
+        "intent": "findBoletoDASByMes", 
+        "text": "DAS feverero"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 3, 
+            "value": "DAS", 
+            "entity": "boleto"
+          }, 
+          {
+            "start": 4, 
+            "end": 7, 
+            "value": "fev", 
+            "entity": "mes"
+          }
+        ], 
+        "intent": "findBoletoDASByMes", 
+        "text": "DAS fev"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 3, 
+            "value": "DAS", 
+            "entity": "boleto"
+          }, 
+          {
+            "start": 4, 
+            "end": 6, 
+            "value": "02", 
+            "entity": "mes"
+          }
+        ], 
+        "intent": "findBoletoDASByMes", 
+        "text": "DAS 02"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 3, 
+            "value": "DAS", 
+            "entity": "boleto"
+          }, 
+          {
+            "start": 4, 
+            "end": 15, 
+            "value": "de feverero", 
+            "entity": "mes"
+          }
+        ], 
+        "intent": "findBoletoDASByMes", 
+        "text": "DAS de feverero"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 3, 
+            "value": "DAS", 
+            "entity": "boleto"
+          }, 
+          {
+            "start": 4, 
+            "end": 15, 
+            "value": "em feverero", 
+            "entity": "mes"
+          }
+        ], 
+        "intent": "findBoletoDASByMes", 
+        "text": "DAS em feverero"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 3, 
+            "value": "DAS", 
+            "entity": "boleto"
+          }, 
+          {
+            "start": 4, 
+            "end": 16, 
+            "value": "de fevereiro", 
+            "entity": "mes"
+          }
+        ], 
+        "intent": "findBoletoDASByMes", 
+        "text": "DAS de fevereiro"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 3, 
+            "value": "DAS", 
+            "entity": "boleto"
+          }, 
+          {
+            "start": 4, 
+            "end": 16, 
+            "value": "em fevereiro", 
+            "entity": "mes"
+          }
+        ], 
+        "intent": "findBoletoDASByMes", 
+        "text": "DAS em fevereiro"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 3, 
+            "value": "DAS", 
+            "entity": "boleto"
+          }, 
+          {
+            "start": 4, 
+            "end": 10, 
+            "value": "de fev", 
+            "entity": "mes"
+          }
+        ], 
+        "intent": "findBoletoDASByMes", 
+        "text": "DAS de fev"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 3, 
+            "value": "DAS", 
+            "entity": "boleto"
+          }, 
+          {
+            "start": 4, 
+            "end": 10, 
+            "value": "em fev", 
+            "entity": "mes"
+          }
+        ], 
+        "intent": "findBoletoDASByMes", 
+        "text": "DAS em fev"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 12, 
+            "value": "contribuicao", 
+            "entity": "boleto"
+          }, 
+          {
+            "start": 13, 
+            "end": 20, 
+            "value": "janeiro", 
+            "entity": "mes"
+          }
+        ], 
+        "intent": "findBoletoDASByMes", 
+        "text": "contribuicao janeiro"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 12, 
+            "value": "contribuicao", 
+            "entity": "boleto"
+          }, 
+          {
+            "start": 13, 
+            "end": 20, 
+            "value": "Janeiro", 
+            "entity": "mes"
+          }
+        ], 
+        "intent": "findBoletoDASByMes", 
+        "text": "contribuicao Janeiro"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 12, 
+            "value": "contribuicao", 
+            "entity": "boleto"
+          }, 
+          {
+            "start": 13, 
+            "end": 19, 
+            "value": "janero", 
+            "entity": "mes"
+          }
+        ], 
+        "intent": "findBoletoDASByMes", 
+        "text": "contribuicao janero"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 12, 
+            "value": "contribuicao", 
+            "entity": "boleto"
+          }, 
+          {
+            "start": 13, 
+            "end": 16, 
+            "value": "jan", 
+            "entity": "mes"
+          }
+        ], 
+        "intent": "findBoletoDASByMes", 
+        "text": "contribuicao jan"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 12, 
+            "value": "contribuicao", 
+            "entity": "boleto"
+          }, 
+          {
+            "start": 13, 
+            "end": 15, 
+            "value": "01", 
+            "entity": "mes"
+          }
+        ], 
+        "intent": "findBoletoDASByMes", 
+        "text": "contribuicao 01"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 12, 
+            "value": "contribuicao", 
+            "entity": "boleto"
+          }, 
+          {
+            "start": 13, 
+            "end": 19, 
+            "value": "de jan", 
+            "entity": "mes"
+          }
+        ], 
+        "intent": "findBoletoDASByMes", 
+        "text": "contribuicao de jan"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 12, 
+            "value": "contribuicao", 
+            "entity": "boleto"
+          }, 
+          {
+            "start": 13, 
+            "end": 19, 
+            "value": "em jan", 
+            "entity": "mes"
+          }
+        ], 
+        "intent": "findBoletoDASByMes", 
+        "text": "contribuicao em jan"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 12, 
+            "value": "contribuicao", 
+            "entity": "boleto"
+          }, 
+          {
+            "start": 13, 
+            "end": 23, 
+            "value": "de janeiro", 
+            "entity": "mes"
+          }
+        ], 
+        "intent": "findBoletoDASByMes", 
+        "text": "contribuicao de janeiro"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 12, 
+            "value": "contribuicao", 
+            "entity": "boleto"
+          }, 
+          {
+            "start": 13, 
+            "end": 23, 
+            "value": "em janeiro", 
+            "entity": "mes"
+          }
+        ], 
+        "intent": "findBoletoDASByMes", 
+        "text": "contribuicao em janeiro"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 12, 
+            "value": "contribuicao", 
+            "entity": "boleto"
+          }, 
+          {
+            "start": 13, 
+            "end": 22, 
+            "value": "de janero", 
+            "entity": "mes"
+          }
+        ], 
+        "intent": "findBoletoDASByMes", 
+        "text": "contribuicao de janero"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 12, 
+            "value": "contribuicao", 
+            "entity": "boleto"
+          }, 
+          {
+            "start": 13, 
+            "end": 22, 
+            "value": "em janero", 
+            "entity": "mes"
+          }
+        ], 
+        "intent": "findBoletoDASByMes", 
+        "text": "contribuicao em janero"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 12, 
+            "value": "contribuicao", 
+            "entity": "boleto"
+          }, 
+          {
+            "start": 13, 
+            "end": 22, 
+            "value": "fevereiro", 
+            "entity": "mes"
+          }
+        ], 
+        "intent": "findBoletoDASByMes", 
+        "text": "contribuicao fevereiro"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 12, 
+            "value": "contribuicao", 
+            "entity": "boleto"
+          }, 
+          {
+            "start": 13, 
+            "end": 21, 
+            "value": "feverero", 
+            "entity": "mes"
+          }
+        ], 
+        "intent": "findBoletoDASByMes", 
+        "text": "contribuicao feverero"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 12, 
+            "value": "contribuicao", 
+            "entity": "boleto"
+          }, 
+          {
+            "start": 13, 
+            "end": 16, 
+            "value": "fev", 
+            "entity": "mes"
+          }
+        ], 
+        "intent": "findBoletoDASByMes", 
+        "text": "contribuicao fev"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 12, 
+            "value": "contribuicao", 
+            "entity": "boleto"
+          }, 
+          {
+            "start": 13, 
+            "end": 15, 
+            "value": "02", 
+            "entity": "mes"
+          }
+        ], 
+        "intent": "findBoletoDASByMes", 
+        "text": "contribuicao 02"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 12, 
+            "value": "contribuicao", 
+            "entity": "boleto"
+          }, 
+          {
+            "start": 13, 
+            "end": 24, 
+            "value": "de feverero", 
+            "entity": "mes"
+          }
+        ], 
+        "intent": "findBoletoDASByMes", 
+        "text": "contribuicao de feverero"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 12, 
+            "value": "contribuicao", 
+            "entity": "boleto"
+          }, 
+          {
+            "start": 13, 
+            "end": 24, 
+            "value": "em feverero", 
+            "entity": "mes"
+          }
+        ], 
+        "intent": "findBoletoDASByMes", 
+        "text": "contribuicao em feverero"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 12, 
+            "value": "contribuicao", 
+            "entity": "boleto"
+          }, 
+          {
+            "start": 13, 
+            "end": 25, 
+            "value": "de fevereiro", 
+            "entity": "mes"
+          }
+        ], 
+        "intent": "findBoletoDASByMes", 
+        "text": "contribuicao de fevereiro"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 12, 
+            "value": "contribuicao", 
+            "entity": "boleto"
+          }, 
+          {
+            "start": 13, 
+            "end": 25, 
+            "value": "em fevereiro", 
+            "entity": "mes"
+          }
+        ], 
+        "intent": "findBoletoDASByMes", 
+        "text": "contribuicao em fevereiro"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 12, 
+            "value": "contribuicao", 
+            "entity": "boleto"
+          }, 
+          {
+            "start": 13, 
+            "end": 19, 
+            "value": "de fev", 
+            "entity": "mes"
+          }
+        ], 
+        "intent": "findBoletoDASByMes", 
+        "text": "contribuicao de fev"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 12, 
+            "value": "contribuicao", 
+            "entity": "boleto"
+          }, 
+          {
+            "start": 13, 
+            "end": 19, 
+            "value": "em fev", 
+            "entity": "mes"
+          }
+        ], 
+        "intent": "findBoletoDASByMes", 
+        "text": "contribuicao em fev"
+      }
+    ], 
+    "entity_synonyms": [
+      {
+        "synonyms": [
+          "contribuicao", 
+          "das", 
+          "contribuição", 
+          "DAS"
+        ], 
+        "value": "boleto"
+      }
+    ], 
+    "regex_features": []
+  }
+}

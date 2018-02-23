@@ -1,0 +1,84 @@
+%[greet]
+    ~[greet]
+
+%[goodbye]
+    ~[bye]
+
+%[findBoletoDAS]
+    ~[please] ~[find] @[boleto]
+
+%[findBoletoDAS]
+    ~[find] @[boleto]
+
+%[findBoletoDASByMes]
+    ~[greet] ~[botName] ~[please] ~[find] @[boleto] @[mes]
+
+%[findBoletoDASByMes]
+    ~[please] ~[find] @[boleto] @[mes]
+
+%[findBoletoDASByMes]
+    ~[find] @[boleto] @[mes]
+
+%[findBoletoDASByMes]
+    @[boleto] @[mes]
+
+~[greet]
+    oi
+    ola
+    opa
+    bom dia
+
+~[bye]
+    tchau
+    adeus
+    hasta la vista
+    see u later
+
+~[botName]
+    mago
+    Mago
+
+~[please]
+    por favor
+    poderia
+    pode
+    gostaria
+    quero
+
+~[find]
+    gerar
+    emitir
+    imprimir
+    pagar
+
+@[boleto]
+    boleto
+    DAS
+    contribuicao
+
+~[janeiro]
+    janeiro
+    Janeiro
+    janero
+    jan
+    01
+    ~[artigoMes] jan
+    ~[artigoMes] janeiro
+    ~[artigoMes] janero
+
+~[fevereiro]
+    fevereiro
+    feverero
+    fev
+    02
+    ~[artigoMes] feverero
+    ~[artigoMes] fevereiro
+    ~[artigoMes] fev
+
+~[artigoMes]
+    de
+    em
+
+@[mes]
+    ~[janeiro]
+    ~[fevereiro]
