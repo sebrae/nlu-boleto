@@ -17,6 +17,12 @@ sudo apt-get install python-pip -y
 sudo yum install python-devel
 ```
 
+> MacOS
+```{shell, engine='bash', count_lines}
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew install python3
+```
+
 > RASA
 
 ```{shell, engine='bash', count_lines}
