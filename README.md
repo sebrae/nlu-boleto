@@ -57,7 +57,7 @@ python -m rasa_nlu.server -c config/config_spacy.json
 
 > Raw POST sample as JSON
 
-http://<server>/parse
+http://localhost/parse
 
 ```json
 {"q":"quero gerar o boleto de janeiro"}
