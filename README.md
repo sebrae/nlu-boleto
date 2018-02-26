@@ -3,6 +3,8 @@ https://nlu.rasa.ai/tutorial.html
 
 Estruturação de intenções e entendidas a partir de solução com exemplo de boleto.
 
+O JSON de treinamento pode ser gerado de forma dinâmica utilizando chatito
+
 ### Install
 
 > Debian
